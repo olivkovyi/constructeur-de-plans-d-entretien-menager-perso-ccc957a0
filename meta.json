@@ -1,0 +1,44 @@
+{
+  "name": "Constructeur de Plans d'Entretien Ménager Personnalisés",
+  "description": "Générez un calendrier d",
+  "theme": "generator",
+  "design_theme": "serious-fun",
+  "structure_preset": "guided-steps-plus",
+  "render_direction": "worksheet-flow",
+  "page_blueprint": "worksheet-cascade",
+  "language": "fr",
+  "country": "FR",
+  "url": null,
+  "expected_url": "https://constructeur-de-plans-d-entretien-menager-perso-ccc957a0.onrender.com",
+  "created": "2026-05-18T02:50:31.388517+00:00",
+  "owner_user_id": "user-1774822953462",
+  "owner_username": "admin",
+  "owner_display_name": "Administrator",
+  "status": "generated",
+  "run_id": "run-1779072610958",
+  "external_site_request_id": null,
+  "external_client_ref": null,
+  "external_source_label": null,
+  "source_type": "generated",
+  "publish_target": "render",
+  "mode": "production",
+  "github": {
+    "status": "pending"
+  },
+  "deployment": {
+    "status": "pending"
+  },
+  "qa": {
+    "status": "pending"
+  },
+  "features": [
+    "Hero pattern: stacked",
+    "Proof module: checklist",
+    "Design theme: Serious Fun",
+    "Render direction: Worksheet Flow",
+    "Page blueprint: Worksheet Cascade",
+    "Runtime mode: document_generator",
+    "Generation mode: direct_html",
+    "Artifact rendered, awaiting QA and deployment"
+  ]
+}
