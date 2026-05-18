@@ -1,0 +1,290 @@
+{
+  "run_id": "run-1779072610958",
+  "job_index": 1,
+  "params": {
+    "owner_user_id": "user-1774822953462",
+    "owner_username": "admin",
+    "owner_display_name": "Administrator",
+    "count": 3,
+    "archetype": "generator",
+    "market": "France",
+    "language": "fr",
+    "country": "FR",
+    "brief": "Planifiez votre entretien ménager sans effort. Créez des routines personnalisées pour une maison toujours imp…",
+    "notes": "Générez un calendrier d'entretien hebdomadaire, mensuel et saisonnier adapté à votre domicile et à vos habitudes de vie. Simplifiez la gestion de votre foyer.\nCible les propriétaires et locataires soucieux de l'organisation domestique. Le thème 'Serious Fun' apportera une touche ludique et motivante à une tâche souvent perçue comme rébarbative.",
+    "import_notes": "",
+    "growth_job_id": "",
+    "growth_slug": "",
+    "growth_kind": "",
+    "external_site_request_id": "",
+    "external_client_ref": "",
+    "external_source_label": "",
+    "dashboard_mode": "builder",
+    "network_site_format": "forum",
+    "network_primary_topic": "",
+    "network_primary_geo": "",
+    "network_domain_pool": "forum-de-jeu.shop",
+    "network_hosting_pool": "4vps:netoper | server_id=447345 | ip=5.253.59.18 | ssh_user=root | ssh_port=22",
+    "network_dns_strategy": "auto_pool_assign",
+    "network_domain_flow": "manual",
+    "network_content_strategy": "",
+    "network_model_concept": "google/gemini-2.5-flash-lite:nitro",
+    "network_model_seo": "google/gemini-2.5-flash-lite:nitro",
+    "network_model_build": "google/gemini-2.5-flash",
+    "network_model_qa": "anthropic/claude-haiku-4.5",
+    "network_model_growth": "google/gemini-2.5-flash-lite:nitro",
+    "network_blueprint_id": "",
+    "mode": "production",
+    "run_kind": "generated_batch",
+    "publish_target": "render",
+    "requested_publish_target": "render",
+    "allow_url_fallback": false,
+    "railway_project_id_override": "",
+    "railway_environment_id_override": "",
+    "railway_service_id_override": "",
+    "railway_service_name_override": "",
+    "github_repo_private": true,
+    "stage_models": {
+      "ideation": "google/gemini-2.5-flash-lite:nitro",
+      "spec": "google/gemini-2.5-flash",
+      "copy": "google/gemini-2.5-flash-lite:nitro",
+      "qa": "anthropic/claude-haiku-4.5",
+      "escalation": "anthropic/claude-sonnet-4.6"
+    },
+    "archetype_display": "mixed batch",
+    "archetype_mix": [
+      "generator",
+      "tool",
+      "calculator"
+    ],
+    "forced_design_theme": "serious-fun",
+    "forced_structure_preset": "guided-steps-plus",
+    "site_idea_title": "Constructeur de Plans d'Entretien Ménager Personnalisés",
+    "site_idea_summary": "Générez un calendrier d'entretien hebdomadaire, mensuel et saisonnier adapté à votre domicile et à vos habitudes de vie. Simplifiez la gestion de votre foyer."
+  },
+  "site_spec": {
+    "slug": "constructeur-de-plans-d-entretien-menager-perso-ccc957a0",
+    "theme": {
+      "name": "Serious Fun",
+      "slug": "serious-fun",
+      "eyebrow": "Playful Precision",
+      "family": "serious-fun",
+      "moods": [
+        "playful",
+        "smart",
+        "optimistic",
+        "professional"
+      ],
+      "archetypes": [
+        "tool",
+        "generator"
+      ],
+      "niches": [
+        "team tools",
+        "education",
+        "community tools",
+        "simple utility",
+        "content tools"
+      ],
+      "keywords": [
+        "joy",
+        "playful",
+        "smart",
+        "friendly",
+        "color"
+      ],
+      "token_index": [
+        "color",
+        "community",
+        "content",
+        "education",
+        "friendly",
+        "fun",
+        "generator",
+        "joy",
+        "optimistic",
+        "playful",
+        "precision",
+        "professional",
+        "serious",
+        "simple",
+        "smart",
+        "team",
+        "tool",
+        "tools",
+        "utility"
+      ],
+      "font_embed": "https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700&family=Inter:wght@400;500;600;700&display=swap",
+      "display_font": "\"Outfit\", sans-serif",
+      "body_font": "\"Inter\", sans-serif",
+      "layout": "split",
+      "card_style": "glass",
+      "button_style": "gradient",
+      "decor_style": "ribbons",
+      "hero_template": "1.08fr 0.92fr",
+      "seo_template": "1.18fr 0.82fr",
+      "feature_columns": 3,
+      "faq_columns": 3,
+      "hero_min_height": "78vh",
+      "panel_radius": "28px",
+      "card_radius": "26px",
+      "chip_radius": "999px",
+      "button_radius": "18px",
+      "outline_width": "1px",
+      "backdrop_blur": "16px",
+      "palette": {
+        "bg": "linear-gradient(150deg, #eff6ff 0%, #dbeafe 32%, #fde68a 100%)",
+        "surface": "rgba(255,255,255,0.86)",
+        "surface_border": "rgba(37,99,235,0.12)",
+        "text": "#172554",
+        "muted": "#475569",
+        "accent": "#2563eb",
+        "accent_alt": "#f97316",
+        "hero_glow": "rgba(249, 115, 22, 0.15)",
+        "button_text": "#f8fafc",
+        "panel_alt": "rgba(255,255,255,0.66)",
+        "shadow": "0 24px 62px rgba(37, 99, 235, 0.1)",
+        "input_fill": "rgba(255,255,255,0.54)"
+      }
+    },
+    "structure": {
+      "name": "Guided Steps Plus",
+      "slug": "guided-steps-plus",
+      "hero_variant": "stacked",
+      "proof_variant": "checklist",
+      "section_order": [
+        "features",
+        "proof",
+        "faq",
+        "seo"
+      ],
+      "feature_columns": 3,
+      "faq_columns": 2,
+      "family": "guided-flow",
+      "moods": [
+        "guided",
+        "clear",
+        "operator"
+      ],
+      "archetypes": [
+        "tool",
+        "calculator",
+        "generator"
+      ],
+      "niches": [
+        "onboarding",
+        "services",
+        "planning",
+        "forms"
+      ],
+      "keywords": [
+        "guided",
+        "steps",
+        "operator",
+        "onboarding"
+      ],
+      "token_index": [
+        "calculator",
+        "checklist",
+        "clear",
+        "faq",
+        "features",
+        "flow",
+        "forms",
+        "generator",
+        "guided",
+        "onboarding",
+        "operator",
+        "planning",
+        "plus",
+        "proof",
+        "seo",
+        "services",
+        "stacked",
+        "steps",
+        "tool"
+      ]
+    },
+    "render_direction": "worksheet-flow",
+    "render_direction_name": "Worksheet Flow",
+    "page_blueprint": "worksheet-cascade",
+    "page_blueprint_name": "Worksheet Cascade",
+    "title": "Constructeur de Plans d'Entretien Ménager Personnalisés",
+    "tagline": "Votre Plan sur Mesure",
+    "description": "Générez un calendrier d",
+    "feature_prefix": "Bloc",
+    "action": "Générer le document",
+    "cta_primary": "Générer Mon Calendrier",
+    "cta_secondary": "Consulter la FAQ",
+    "inputs": [
+      {
+        "id": "name",
+        "label": "Nom ou entreprise",
+        "type": "text",
+        "placeholder": "Studio Horizon",
+        "weight": 1.0
+      },
+      {
+        "id": "goal",
+        "label": "Objectif du document",
+        "type": "text",
+        "placeholder": "confirmation de demande",
+        "weight": 1.0
+      },
+      {
+        "id": "details",
+        "label": "Détails utiles",
+        "type": "text",
+        "placeholder": "date, montant, référence",
+        "weight": 1.0
+      }
+    ],
+    "hero_metrics": [
+      {
+        "value": "Worksheet Flow",
+        "label": "Cadence"
+      },
+      {
+        "value": "3",
+        "label": "Entrées"
+      },
+      {
+        "value": "Brouillon généré",
+        "label": "Sortie"
+      }
+    ],
+    "trust_labels": [
+      "Worksheet Flow",
+      "Générer Mon Calendrier",
+      "Brouillon généré",
+      "Utilitaire immédiat",
+      "Structure SEO claire"
+    ],
+    "result_label": "Brouillon généré",
+    "result_unit": "",
+    "runtime_mode": "document_generator",
+    "page_variant": "classic",
+    "faq_topic": "Constructeur de Plans d'Entretien Ménager Personnalisés",
+    "faq_entries": [
+      {
+        "question": "Pourquoi utiliser cet outil pour Constructeur de Plans d'Entretien Ménager Personnalisés ?",
+        "answer": "Il aide à cadrer le besoin rapidement et à orienter vers une prochaine action claire sur le marché France."
+      },
+      {
+        "question": "Le résultat est-il immédiat ?",
+        "answer": "Oui. L'interface est pensée pour une réponse rapide, lisible et exploitable dès la première interaction."
+      },
+      {
+        "question": "Cette page est-elle adaptée au SEO ?",
+        "answer": "Oui. La structure mélange utilité, clarté éditoriale et signaux de confiance sans surcharger l'expérience."
+      }
+    ],
+    "seo_paragraphs": [
+      "Cette page capte une intention forte autour de Constructeur de Plans d'Entretien Ménager Personnalisés et la transforme en action utile pour un public situé sur France.",
+      "Le format hero-first accélère la compréhension, réduit les frictions et améliore la lisibilité sur mobile comme sur desktop.",
+      "Le socle reste volontairement simple pour faciliter les tests, la QA continue et les variations SEO."
+    ],
+    "document_html": "<!DOCTYPE html>\n<html lang=\"fr\">\n<head>\n    <meta charset=\"UTF-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <title>Constructeur de Plans d&#x27;Entretien Ménager Personnalisés | Votre Plan sur Mesure</title>\n    <meta name=\"description\" content=\"Générez un calendrier d\">\n    <link rel=\"icon\" href=\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Ctext x='0' y='14' font-size='16'%3E%F0%9F%A7%B9%3C/text%3E%3C/svg%3E\">\n    <style>\n        @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Open+Sans:wght@400;600&display=swap');\n\n        :root {\n            --dark-bg: #1c1c1c;\n            --dark-card: #2c2c2c;\n            --accent-color: #7AEC7A;\n            --text-color: #e0e0e0;\n            --light-border: #444;\n            --font-display: 'Montserrat', sans-serif;\n            --font-body: 'Open Sans', sans-serif;\n        }\n\n        body {\n            font-family: var(--font-body);\n            background-color: var(--dark-bg);\n            color: var(--text-color);\n            margin: 0;\n            line-height: 1.6;\n            display: flex;\n            flex-direction: column;\n            align-items: center;\n            padding: 20px;\n            box-sizing: border-box;\n        }\n\n        header {\n            text-align: center;\n            padding: 40px 20px;\n            max-width: 900px;\n        }\n\n        h1 {\n            font-family: var(--font-display);\n            font-size: 2.8em;\n            color: var(--accent-color);\n            margin-bottom: 15px;\n            line-height: 1.2;\n        }\n\n        header p {\n            font-size: 1.1em;\n            max-width: 700px;\n            margin: 0 auto;\n        }\n\n        .container {\n            display: grid;\n            grid-template-columns: 1fr;\n            gap: 25px;\n            max-width: 1100px;\n            width: 100%;\n            padding: 25px;\n        }\n\n        @media (min-width: 900px) {\n            .container {\n                grid-template-columns: 2fr 1fr;\n            }\n        }\n\n        .card {\n            background-color: var(--dark-card);\n            border: 1px solid var(--light-border);\n            border-radius: 8px;\n            padding: 30px;\n            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);\n        }\n\n        .card h2 {\n            font-family: var(--font-display);\n            color: var(--accent-color);\n            font-size: 1.8em;\n            margin-top: 0;\n            margin-bottom: 20px;\n        }\n\n        label {\n            display: block;\n            margin-bottom: 8px;\n            font-weight: 600;\n            color: var(--text-color);\n            font-size: 0.95em;\n        }\n\n        input[type=\"number\"],\n        select,\n        textarea {\n            width: calc(100% - 20px);\n            padding: 12px;\n            margin-bottom: 20px;\n            border: 1px solid var(--light-border);\n            border-radius: 5px;\n            background-color: #383838;\n            color: var(--text-color);\n            font-size: 1em;\n        }\n\n        input[type=\"checkbox\"] {\n            margin-right: 10px;\n            transform: scale(1.2);\n        }\n\n        .checkbox-group {\n            margin-bottom: 20px;\n        }\n\n        button {\n            background-color: var(--accent-color);\n            color: var(--dark-bg);\n            border: none;\n            padding: 15px 25px;\n            border-radius: 5px;\n            font-size: 1.1em;\n            font-weight: 700;\n            cursor: pointer;\n            transition: background-color 0.3s ease, transform 0.2s ease;\n            width: 100%;\n            margin-top: 10px;\n        }\n\n        button:hover {\n            background-color: #5dcb5d;\n            transform: translateY(-2px);\n        }\n\n        #tool-result {\n            background-color: #242424;\n            border: 1px solid var(--light-border);\n            border-radius: 8px;\n            padding: 30px;\n            font-size: 1em;\n            line-height: 1.8;\n            white-space: pre-wrap;\n            min-height: 200px;\n        }\n\n        #tool-result h3 {\n            font-family: var(--font-display);\n            color: var(--accent-color);\n            font-size: 1.4em;\n            margin-top: 0;\n            margin-bottom: 15px;\n        }\n\n        #tool-result ul {\n            list-style: none;\n            padding: 0;\n        }\n\n        #tool-result li {\n            background-color: #3a3a3a;\n            padding: 10px 15px;\n            border-left: 3px solid var(--accent-color);\n            margin-bottom: 8px;\n            border-radius: 4px;\n        }\n\n        .cta-section {\n            background-color: var(--dark-card);\n            border: 1px solid var(--light-border);\n            border-radius: 8px;\n            padding: 30px;\n            text-align: center;\n            margin-top: 30px;\n            max-width: 900px;\n            width: 100%;\n        }\n\n        .cta-section h2 {\n            font-family: var(--font-display);\n            color: var(--accent-color);\n            font-size: 2em;\n            margin-bottom: 20px;\n        }\n\n        .cta-section p {\n            font-size: 1.1em;\n            margin-bottom: 30px;\n        }\n\n        .cta-buttons button {\n            width: auto;\n            min-width: 200px;\n            margin: 0 10px;\n        }\n\n        footer {\n            text-align: center;\n            padding: 40px 20px;\n            margin-top: 50px;\n            color: #ccc;\n            font-size: 0.9em;\n            max-width: 900px;\n        }\n\n        footer h2 {\n            font-family: var(--font-display);\n            color: var(--accent-color);\n            font-size: 1.5em;\n            margin-bottom: 20px;\n        }\n\n        footer ul {\n            list-style: none;\n            padding: 0;\n            display: flex;\n            flex-wrap: wrap;\n            justify-content: center;\n            gap: 10px;\n        }\n\n        footer li {\n            background-color: #3a3a3a;\n            padding: 8px 15px;\n            border-radius: 20px;\n            font-size: 0.85em;\n            color: #aaa;\n        }\n    </style>\n    <meta name=\"robots\" content=\"index, follow\">\n    <link rel=\"canonical\" href=\"https://constructeur-de-plans-d-entretien-menager-perso-ccc957a0.onrender.com\">\n    <meta property=\"og:title\" content=\"Constructeur de Plans d&#x27;Entretien Ménager Personnalisés\">\n    <meta property=\"og:description\" content=\"Générez un calendrier d\">\n    <meta property=\"og:url\" content=\"https://constructeur-de-plans-d-entretien-menager-perso-ccc957a0.onrender.com\">\n    <meta property=\"og:type\" content=\"website\">\n    <script type=\"application/ld+json\">{\"@context\": \"https://schema.org\", \"@type\": \"WebApplication\", \"name\": \"Constructeur de Plans d'Entretien Ménager Personnalisés\", \"description\": \"Générez un calendrier d\", \"url\": \"https://constructeur-de-plans-d-entretien-menager-perso-ccc957a0.onrender.com\", \"applicationCategory\": \"UtilityApplication\", \"operatingSystem\": \"Web Browser\"}</script>\n</head>\n<body data-site-slug=\"constructeur-de-plans-d-entretien-menager-perso-ccc957a0\" data-runtime-mode=\"document_generator\">\n    <header>\n        <h1>Simplifiez l'Entretien de Votre Foyer</h1>\n        <p>Générez un calendrier d'entretien hebdomadaire, mensuel et saisonnier adapté à votre domicile et à vos habitudes de vie. Transformez une corvée en plaisir organisé.</p>\n    </header>\n\n    <div class=\"container\">\n        <div class=\"card\">\n            <h2>Votre Plan sur Mesure</h2>\n            <form id=\"tool-form\">\n                <label for=\"room-count\">Nombre de pièces principales (hors SDB/WC) :</label>\n                <input type=\"number\" id=\"room-count\" value=\"3\" min=\"1\" max=\"10\" required>\n\n                <label for=\"occupants\">Nombre d'occupants :</label>\n                <input type=\"number\" id=\"occupants\" value=\"2\" min=\"1\" max=\"8\" required>\n\n                <label for=\"pets\">Avez-vous des animaux de compagnie ?</label>\n                <select id=\"pets\">\n                    <option value=\"none\">Non</option>\n                    <option value=\"one\">Un</option>\n                    <option value=\"multiple\">Plusieurs</option>\n                </select>\n\n                <label for=\"house-type\">Type de logement :</label>\n                <select id=\"house-type\">\n                    <option value=\"apartment\">Appartement</option>\n                    <option value=\"house\">Maison</option>\n                </select>\n\n                <label for=\"garden\">Avez-vous un jardin ou balcon conséquent ?</label>\n                <select id=\"garden\">\n                    <option value=\"no\">Non</option>\n                    <option value=\"yes\">Oui</option>\n                </select>\n\n                <div class=\"checkbox-group\">\n                    <label>Préférences spécifiques :</label>\n                    <div><input type=\"checkbox\" id=\"dust-sensitive\" value=\"poussiere\"> Sensible à la poussière</div>\n                    <div><input type=\"checkbox\" id=\"kids\" value=\"enfants\"> Enfants en bas âge</div>\n                    <div><input type=\"checkbox\" id=\"allergies\" value=\"allergies\"> Allergies connues</div>\n                </div>\n                \n                <button type=\"submit\" id=\"tool-submit\">Générer Mon Calendrier</button>\n            </form>\n        </div>\n\n        <div class=\"card\">\n            <h2>Votre Calendrier Personnalisé</h2>\n            <div id=\"tool-result\">\n                <h3 id=\"result-headline\">Votre routine d'entretien apparaîtra ici.</h3>\n                <p>Remplissez les informations à gauche et cliquez sur \"Générer Mon Calendrier\" pour découvrir un plan adapté à votre domicile.</p>\n            </div>\n        </div>\n    </div>\n\n    <div class=\"cta-section\">\n        <h2>Passez à la Vitesse Supérieure</h2>\n        <p>Vous aimez votre nouveau plan ? Découvrez des outils et astuces pour rendre l'entretien encore plus simple et agréable.</p>\n        <div class=\"cta-buttons\">\n            <button data-affiliate-slot=\"smart-cleaning-tools\">Découvrir les Outils Malins</button>\n            <button data-affiliate-slot=\"eco-friendly-products\">Produits Éco-responsables</button>\n        </div>\n    </div>\n\n    <footer>\n        <h2>Recherches Fréquentes pour un Foyer Impeccable</h2>\n        <p>Trouvez les meilleures pratiques pour l'organisation et l'entretien de votre maison.</p>\n        <ul>\n            <li>planning ménage semaine</li>\n            <li>calendrier nettoyage maison pdf</li>\n            <li>routine ménage rapide</li>\n            <li>organisation tâches ménagères famille</li>\n            <li>astuces entretien appartement</li>\n            <li>produits ménagers écologiques</li>\n            <li>comment garder sa maison propre</li>\n            <li>fréquence nettoyage salle de bain</li>\n            <li>entretien cuisine facile</li>\n            <li>désencombrer sa maison étapes</li>\n            <li>guide ménage printemps</li>\n            <li>checklist ménage fin de bail</li>\n        </ul>\n    </footer>\n\n    <script>\n        document.getElementById('tool-form').addEventListener('submit', function(event) {\n            event.preventDefault();\n\n            const roomCount = parseInt(document.getElementById('room-count').value);\n            const occupants = parseInt(document.getElementById('occupants').value);\n            const pets = document.getElementById('pets').value;\n            const houseType = document.getElementById('house-type').value;\n            const garden = document.getElementById('garden').value;\n            const dustSensitive = document.getElementById('dust-sensitive').checked;\n            const kids = document.getElementById('kids').checked;\n            const allergies = document.getElementById('allergies').checked;\n\n            let weeklyTasks = [];\n            let monthlyTasks = [];\n            let seasonalTasks = [];\n\n            // Base weekly tasks\n            weeklyTasks.push(\"Aspirer/laver les sols des pièces de vie\");\n            weeklyTasks.push(\"Nettoyer les surfaces de cuisine (plan de travail, évier)\");\n            weeklyTasks.push(\"Nettoyer les WC et lavabos\");\n            weeklyTasks.push(\"Vider les poubelles\");\n            weeklyTasks.push(\"Ranger et organiser les zones encombrées\");\n            weeklyTasks.push(\"Laver le linge et le plier\");\n\n            // Adjustments based on inputs\n            if (roomCount > 3 || occupants > 2) {\n                weeklyTasks.push(\"Passer l'aspirateur plus fréquemment dans les zones de passage\");\n            }\n            if (pets !== 'none') {\n                weeklyTasks.push(\"Aspirer les poils d'animaux (canapés, tapis)\");\n            }\n            if (kids) {\n                weeklyTasks.push(\"Ranger les jouets et désinfecter les surfaces fréquemment touchées\");\n            }\n            if (dustSensitive || allergies) {\n                weeklyTasks.push(\"Dépoussiérer les surfaces hautes et basses (meubles, étagères)\");\n            }\n            \n            // Monthly tasks\n            monthlyTasks.push(\"Nettoyer les miroirs et vitres\");\n            monthlyTasks.push(\"Dépoussiérer les luminaires et plinthes\");\n            monthlyTasks.push(\"Nettoyer la douche/baignoire en profondeur\");\n            monthlyTasks.push(\"Laver les tapis ou paillassons\");\n            monthlyTasks.push(\"Nettoyer les appareils électroménagers (micro-ondes, lave-vaisselle filtre)\");\n            if (houseType === 'house') {\n                monthlyTasks.push(\"Vérifier et nettoyer les bouches d'aération\");\n            }\n\n            // Seasonal tasks (every 3 months, for simplicity)\n            seasonalTasks.push(\"Nettoyage en profondeur des placards de cuisine\");\n            seasonalTasks.push(\"Laver les rideaux ou stores\");\n            seasonalTasks.push(\"Nettoyer les fenêtres intérieures et extérieures\");\n            seasonalTasks.push(\"Nettoyage des murs (points d'accès, interrupteurs)\");\n            seasonalTasks.push(\"Vérifier et nettoyer les joints de salle de bain\");\n            if (garden === 'yes') {\n                seasonalTasks.push(\"Entretien du mobilier de jardin/balcon\");\n            }\n\n            let resultHtml = '<h3>Votre Calendrier d\\'Entretien Personnalisé :</h3>';\n\n            resultHtml += '<h4>Chaque Semaine :</h4><ul>';\n            weeklyTasks.forEach(task => {\n                resultHtml += `<li>${task}</li>`;\n            });\n            resultHtml += '</ul>';\n\n            resultHtml += '<h4>Chaque Mois :</h4><ul>';\n            monthlyTasks.forEach(task => {\n                resultHtml += `<li>${task}</li>`;\n            });\n            resultHtml += '</ul>';\n\n            resultHtml += '<h4>Chaque Saison (3 Mois) :</h4><ul>';\n            seasonalTasks.forEach(task => {\n                resultHtml += `<li>${task}</li>`;\n            });\n            resultHtml += '</ul>';\n            \n            resultHtml += '<p><em>Ce plan est une suggestion, ajustez-le à votre rythme !</em></p>';\n\n            document.getElementById('tool-result').innerHTML = resultHtml;\n        });\n    </script>\n<div id=\"qa-smoke-result\" hidden></div>\n<script id=\"farmbuilder-affiliate-helper\">\n(function () {\n  window.__UTILITY_AFFILIATE_MAP = window.__UTILITY_AFFILIATE_MAP || {};\n  document.addEventListener(\"click\", function (event) {\n    const target = event.target.closest(\"[data-affiliate-slot]\");\n    if (!target) return;\n    const slot = target.getAttribute(\"data-affiliate-slot\");\n    const href = window.__UTILITY_AFFILIATE_MAP[slot];\n    if (!href) return;\n    if (target.tagName && target.tagName.toLowerCase() === \"a\") {\n      target.setAttribute(\"href\", href);\n      target.removeAttribute(\"rel\");\n      return;\n    }\n    event.preventDefault();\n    window.open(href, \"_blank\");\n  }, true);\n})();\n</script>\n<script id=\"farmbuilder-functional-qa\">\n(function () {\n  function marker() {\n    let node = document.getElementById(\"qa-smoke-result\");\n    if (node) return node;\n    node = document.createElement(\"div\");\n    node.id = \"qa-smoke-result\";\n    node.hidden = true;\n    document.body.appendChild(node);\n    return node;\n  }\n\n  let qaFinished = false;\n  let qaWatchdog = null;\n\n  function normalize(text) {\n    return String(text || \"\").replace(/\\s+/g, \" \").trim();\n  }\n\n  function findForm() {\n    return document.getElementById(\"tool-form\") || document.querySelector(\"form\");\n  }\n\n  function findResult() {\n    return (\n      document.getElementById(\"tool-result\") ||\n      document.querySelector(\"[data-result]\") ||\n      document.querySelector(\".tool-result, .result-card, .result, .results, .output, .preview, .diagnostic, .analysis\")\n    );\n  }\n\n  function primaryAction(form) {\n    if (!form) return null;\n    return (\n      document.getElementById(\"tool-submit\") ||\n      form.querySelector(\"#tool-submit\") ||\n      form.querySelector(\"[data-primary-action]\") ||\n      form.querySelector(\"button[type=submit]\") ||\n      form.querySelector(\"button\") ||\n      form.querySelector(\"input[type=submit]\")\n    );\n  }\n\n  function resultSignature(node) {\n    if (!node) return \"\";\n    const text = normalize(node.textContent);\n    const html = normalize(node.innerHTML).slice(0, 600);\n    return `${text}||${html}`;\n  }\n\n  function resultHeadline(node) {\n    if (!node) return \"\";\n    const heading = node.querySelector(\"h1, h2, h3, strong, b\");\n    return normalize(heading ? heading.textContent : \"\");\n  }\n\n  function sampleText(field) {\n    const key = `${field.id || \"\"} ${field.name || \"\"} ${field.placeholder || \"\"}`.toLowerCase();\n    if (/email/.test(key)) return \"bonjour@example.com\";\n    if (/url|site|website|lien/.test(key)) return \"https://example.com/offre-solaire\";\n    if (/phone|tel|mobile/.test(key)) return \"0612345678\";\n    if (/ville|city|localisation|location|region|departement|postal/.test(key)) return \"Paris\";\n    if (/orientation/.test(key)) return \"sud\";\n    if (/keyword|theme|topic|sujet|subject/.test(key)) return \"energie solaire domestique\";\n    if (/titre|title/.test(key)) return \"Simulateur solaire maison\";\n    if (/nom|name|project/.test(key)) return \"Projet Horizon\";\n    if (/description|notes|content|message/.test(key)) return \"Maison individuelle exposee sud avec toiture exploitable.\";\n    return field.placeholder || \"France\";\n  }\n\n  function sampleNumber(field) {\n    const key = `${field.id || \"\"} ${field.name || \"\"}`.toLowerCase();\n    if (/inclinaison|angle|slope/.test(key)) return \"30\";\n    if (/surface|size|m2|sqm/.test(key)) return \"28\";\n    if (/annee|year/.test(key)) return \"2024\";\n    if (/prix|price|budget|cost|amount|montant/.test(key)) return \"12000\";\n    const min = Number(field.min || \"\");\n    const max = Number(field.max || \"\");\n    if (Number.isFinite(min) && Number.isFinite(max) && max >= min) {\n      return String(Math.min(max, Math.max(min, min + Math.round((max - min) * 0.35))));\n    }\n    if (Number.isFinite(min)) return String(Math.max(min, 12));\n    if (Number.isFinite(max)) return String(Math.min(max, 12));\n    return field.value || \"12\";\n  }\n\n  function applySample(field) {\n    const tag = (field.tagName || \"\").toLowerCase();\n    const type = (field.type || \"\").toLowerCase();\n    if (field.disabled) return;\n    if (type === \"hidden\" || type === \"submit\" || type === \"button\" || type === \"reset\" || type === \"image\" || type === \"file\") {\n      return;\n    }\n    const currentValue = normalize(field.value);\n    if (tag === \"select\") {\n      if (currentValue) return;\n      const option = Array.from(field.options || []).find((item) => item.value && !item.disabled) || field.options[0];\n      if (option) field.value = option.value;\n      return;\n    }\n    if (type === \"checkbox\") {\n      if (field.checked) return;\n      field.checked = true;\n      return;\n    }\n    if (type === \"radio\") {\n      if (field.checked) return;\n      field.checked = true;\n      return;\n    }\n    if (type === \"date\") {\n      if (currentValue) return;\n      field.value = \"2026-03-01\";\n      return;\n    }\n    if (type === \"email\") {\n      if (currentValue) return;\n      field.value = \"bonjour@example.com\";\n      return;\n    }\n    if (type === \"url\") {\n      if (currentValue) return;\n      field.value = \"https://example.com/offre-solaire\";\n      return;\n    }\n    if (type === \"tel\") {\n      if (currentValue) return;\n      field.value = \"0612345678\";\n      return;\n    }\n    if (type === \"color\") {\n      if (currentValue) return;\n      field.value = \"#2f855a\";\n      return;\n    }\n    if (type === \"number\" || type === \"range\") {\n      if (currentValue) return;\n      field.value = sampleNumber(field);\n      return;\n    }\n    if (currentValue) return;\n    field.value = sampleText(field);\n  }\n\n  function stamp(status, detail, headline, primary) {\n    if (qaFinished) return;\n    qaFinished = true;\n    if (qaWatchdog) {\n      window.clearTimeout(qaWatchdog);\n      qaWatchdog = null;\n    }\n    const node = marker();\n    node.dataset.status = status;\n    node.dataset.mode = \"native-form\";\n    node.dataset.detail = detail || \"\";\n    node.dataset.headline = headline || \"\";\n    node.dataset.primary = primary || \"\";\n    node.dataset.viewport = window.innerWidth <= 640 ? \"mobile\" : \"desktop\";\n    window.setTimeout(function () {\n      try {\n        window.stop();\n      } catch (_error) {}\n    }, 0);\n  }\n\n  function installModalGuards() {\n    const noop = function () {};\n    const approve = function () { return true; };\n    const empty = function () { return \"\"; };\n    try { window.alert = noop; } catch (_error) {}\n    try { window.confirm = approve; } catch (_error) {}\n    try { window.prompt = empty; } catch (_error) {}\n  }\n\n  function triggerAction(form, action) {\n    try {\n      if (typeof form.requestSubmit === \"function\") {\n        form.requestSubmit(action || undefined);\n        return;\n      }\n    } catch (_error) {}\n    if (action && typeof action.click === \"function\") {\n      action.click();\n      return;\n    }\n    form.dispatchEvent(new Event(\"submit\", { bubbles: true, cancelable: true }));\n  }\n\n  function inspectResult(before, attemptsLeft) {\n    const result = findResult();\n    if (!result) {\n      stamp(\"fail\", \"La zone de resultat est introuvable.\", \"\");\n      return;\n    }\n    const after = resultSignature(result);\n    const text = normalize(result.textContent);\n    if (after && after !== before && text.length >= 24) {\n      const primary = result.querySelector(\"a[href], button[data-href], [data-primary-url]\") || document.querySelector(\"#tool-result a[href]\");\n      stamp(\"pass\", \"Le formulaire natif a mis a jour la zone de resultat.\", resultHeadline(result), primary ? (primary.getAttribute(\"href\") || primary.getAttribute(\"data-primary-url\") || \"\") : \"\");\n      return;\n    }\n    if (attemptsLeft > 0) {\n      window.setTimeout(function () {\n        inspectResult(before, attemptsLeft - 1);\n      }, 250);\n      return;\n    }\n    stamp(\"fail\", \"La zone de resultat n'a pas renvoye de contenu exploitable.\", resultHeadline(result));\n  }\n\n  function runSmoke() {\n    const params = new URLSearchParams(window.location.search);\n    if (params.get(\"__qa\") !== \"functional\") return;\n    qaWatchdog = window.setTimeout(function () {\n      stamp(\"fail\", \"QA smoke timed out before the page reported a usable result.\", \"\");\n    }, 7000);\n    const form = findForm();\n    if (!form) {\n      stamp(\"fail\", \"Le formulaire principal est introuvable.\", \"\");\n      return;\n    }\n    const result = findResult();\n    const before = resultSignature(result);\n    installModalGuards();\n    try {\n      form.querySelectorAll(\"input, select, textarea\").forEach(applySample);\n    } catch (error) {\n      stamp(\"fail\", error && error.message ? `QA smoke sample failed: ${error.message}` : \"QA smoke sample failed before submit.\", \"\");\n      return;\n    }\n    const action = primaryAction(form);\n    try {\n      triggerAction(form, action);\n    } catch (error) {\n      stamp(\"fail\", error && error.message ? `QA smoke submit failed: ${error.message}` : \"QA smoke submit failed.\", \"\");\n      return;\n    }\n    inspectResult(before, 10);\n  }\n\n  window.addEventListener(\"error\", function (event) {\n    const message = event && event.message ? event.message : \"JavaScript runtime error during QA smoke.\";\n    stamp(\"fail\", `QA smoke JS error: ${message}`, \"\");\n  }, { once: true });\n\n  window.addEventListener(\"unhandledrejection\", function (event) {\n    const reason = event && event.reason;\n    const detail = typeof reason === \"string\"\n      ? reason\n      : reason && reason.message\n        ? reason.message\n        : \"Unhandled promise rejection during QA smoke.\";\n    stamp(\"fail\", `QA smoke rejection: ${detail}`, \"\");\n  }, { once: true });\n\n  if (document.readyState === \"loading\") {\n    document.addEventListener(\"DOMContentLoaded\", function () {\n      window.setTimeout(runSmoke, 60);\n    }, { once: true });\n  } else {\n    window.setTimeout(runSmoke, 60);\n  }\n})();\n</script>\n</body>\n</html>",
+    "generation_mode": "direct_html"
+  }
+}
